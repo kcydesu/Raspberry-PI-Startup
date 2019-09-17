@@ -5,7 +5,7 @@ Download balenaEtcher from the first link below and the latest version of Raspbi
 1. https://www.balena.io/etcher/
 2. https://www.raspberrypi.org/downloads/raspbian/
 
-Use balenaEtcher to flash Raspbian onto a microSD Card, and then download the the interfaces file and wpa_supplicant.conf from the files folder in this repository.
+Use balenaEtcher to flash Raspbian onto a microSD Card, and then download the the interfaces file and wpa_supplicant.conf from this repository.
 
 After downloading both of these files, edit the wpa_supplicant.conf file to match your WiFi settings, and move both of these files into the /bin folder on your microSD Card.
 
