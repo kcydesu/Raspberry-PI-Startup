@@ -9,7 +9,10 @@ Use balenaEtcher to flash Raspbian onto a microSD Card, and then download the th
 
 After downloading both of these files, edit the wpa_supplicant.conf file to match your WiFi settings, and move both of these files into the /bin folder on your microSD Card.
 
-Connect a USB to Serial cable to your Raspberry Pi, allowing you to access your Raspberry Pi using screen.
+Connect a USB to Serial cable to your Raspberry Pi, allowing you to access your Raspberry Pi using the screen command.
+```
+sudo screen /dev/ttuUSB0 115200
+```
 
 ## Software
 After loading into the Raspberry Pi, run the following lines in the command script in order to install the dependencies to use MQTT protocol on your Raspberry Pi.
