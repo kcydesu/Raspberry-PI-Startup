@@ -11,7 +11,7 @@ After downloading both of these files, edit the wpa_supplicant.conf file to matc
 
 Connect a USB to Serial cable to your Raspberry Pi, allowing you to access your Raspberry Pi using the screen command.
 ```
-sudo screen /dev/ttuUSB0 115200
+sudo screen /dev/ttyUSB0 115200
 ```
 
 ## Software
